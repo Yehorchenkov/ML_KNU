@@ -1,0 +1,51 @@
+---
+title: "Regression solution"
+author: "Oleksii Yehorchenkov"
+date: "09 03 2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+This is assignment is inspired by practices of [Ryan Miller] (https://remiller1450.github.io/).
+
+## Using regression for predicting binary outcome.
+
+The [Donner Party] (https://en.wikipedia.org/wiki/Donner_Party) dataset documents the fate of members of the Donner Party, a group of 45 pioneers whose migration to California was delayed by a series of mishaps which resulted in the group being stranded in the Sierra Nevada mountains.
+
+**Problem**
+Predict survival status members of the Donner Party. The target variable is `Survived`.
+
+## Task
+
+Read the data. Pay attention that data has NA values. It's better to convert target variable to factor.
+```{r}
+# code for reading data
+
+```
+
+For prediction we will use only variables `Sex` and `Age`. 
+
+For predicting binary outcome we will use **Generalized Linear Model** (`method = "glm"`) and **caret package**. 
+
+```{r}
+# code for regression
+
+
+```
+
+What is your in-sample accuracy? Build a confusion matrix
+
+```{r}
+# code for confusion matrix
+
+```
+Use a cross-validation with `method = "repeatedcv"`, `number = 5`, `repeats = 10`. Does cross-validation improve the accuracy?
+
+```{r}
+# code for cross-validation
+
+
+```
