@@ -135,7 +135,7 @@ Now in this case, we will pipe the msleep data frame to the function that will s
 ```{r}
 msleep %>% 
     select(name, sleep_total) %>% 
-    head
+    head()
 ```
 
 You will soon see how useful the pipe operator is when we start to combine many functions.
