@@ -13,7 +13,7 @@ This is assignment is inspired by practices of [Ryan Miller] (https://remiller14
 
 ## Using regression for predicting binary outcome.
 
-The [Donner Party] (https://en.wikipedia.org/wiki/Donner_Party) dataset documents the fate of members of the Donner Party, a group of 45 pioneers whose migration to California was delayed by a series of mishaps which resulted in the group being stranded in the Sierra Nevada mountains.
+The [Donner Party](https://en.wikipedia.org/wiki/Donner_Party) dataset documents the fate of members of the Donner Party, a group of 45 pioneers whose migration to California was delayed by a series of mishaps which resulted in the group being stranded in the Sierra Nevada mountains. You can find `donner_party.csv` in the `data` folder.
 
 **Problem**
 Predict survival status members of the Donner Party. The target variable is `Survived`.

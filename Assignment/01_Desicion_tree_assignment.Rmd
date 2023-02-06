@@ -9,11 +9,11 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
 ```
 
-This assignment is based on materials from [mlcourse.ai] (https://mlcourse.ai)
+This assignment is based on materials from [mlcourse.ai](https://mlcourse.ai)
 
 ## Building a decision tree for predicting heart diseases
 
-Let's read the data on heart diseases. The dataset can be downloaded from the course repo from [here](https://www.dropbox.com/s/kr1d9vsnax5wxfo/mlbootcamp5_train.csv?dl=0).
+Let's read the data on heart diseases. The dataset `mlbootcamp5_train.csv` you can find in the `data` folder.
 
 **Problem**
 
